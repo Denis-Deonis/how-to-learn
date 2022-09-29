@@ -9,6 +9,30 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* общие признаки и элементы */
+
+.logo {
+  position: absolute;
+  z-index: 73; /* самое лучшее число (Шелдон) */
+}
+
+.offset-to-the-right {
+  left: 64px;
+  position: absolute;  
+  z-index: 73;
+}
+
+.position-absolute {
+  position: absolute;
+} 
+
+.zero-on-the-right {
+  right: 0;
+}
+
+
+/* шапка сайта */
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -16,10 +40,51 @@
   /* выше установили ограничения для секции */
 }
 
+.logo__place__header {
+  top: 30px;
+  width: 228px;
+  height: 32px;
+}
+
+/* текст, заголовок шапки и т.д.*/
+
+.header__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 730px;
+  height: 100%;
+}
+
+.header__title__text {
+  height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
+
+.header__subtitle {
+  bottom: 30px;
+  width: 388px;
+}
+
+/* картинка шапки */
+
+.header__main-illustration {
+  bottom: 0;
+  width: 765px;
+  height: 608px;
+}
+
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+
+  top: 64px;
+  background-color: #0080ff;
+  z-index: -1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
