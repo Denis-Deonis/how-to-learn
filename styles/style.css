@@ -11,24 +11,18 @@
 
 /* общие признаки и элементы */
 
-.logo {
-  position: absolute;
-  z-index: 73; /* самое лучшее число (Шелдон) */
-}
-
-.offset-to-the-right {
-  left: 64px;
-  position: absolute;  
-  z-index: 73;
-}
-
 .position-absolute {
   position: absolute;
+  z-index: 73; /* самое лучшее число (Шелдон) */
 } 
 
-.zero-on-the-right {
-  right: 0;
-}
+.offset-to-the-right { left: 64px;}
+
+.zero-on-the-right {right: 0;}
+
+.link {color: #2f80ed;} /* ссылки синие*/
+
+.right-arrow::after {content: " \2192";}  /*стрелка с права*/
 
 
 /* шапка сайта */
@@ -66,7 +60,12 @@
 .header__subtitle {
   bottom: 30px;
   width: 388px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
+
+
 
 /* картинка шапки */
 
@@ -86,6 +85,13 @@
   background-color: #0080ff;
   z-index: -1;
 }
+
+
+
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
