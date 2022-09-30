@@ -27,6 +27,9 @@
 
 .text-bold { font-weight: 600;}
 
+.indented-and-auto-section { margin: 100px auto;}  /* отступы для section */
+
+.text-in-the-center { text-align: center;}
 
 
 /* шапка сайта */
@@ -103,7 +106,6 @@
   align-items: center;
   justify-content: center;
   min-height: 80vh;
-  margin: 100px auto;
 }
 
 
@@ -147,7 +149,9 @@
 /* секция с повторным использованием  */
 
 
-
+.section-title {
+  text-align: center;
+}
 
 
 
