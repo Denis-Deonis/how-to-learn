@@ -31,6 +31,8 @@
 
 .text-in-the-center { text-align: center;}
 
+.margin-zero {margin: 0;}
+
 
 /* шапка сайта */
 
@@ -150,10 +152,54 @@
 
 
 .section-title {
-  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.section-subtitle {
+font-size: 24px;
+font-weight: normal;
+line-height: 34px;
 }
 
 
+.section-subtitle__indent {
+  margin: 20px auto 0;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__width { width: 1100px;}
+.table__center { margin: 0 auto;}
+
+.table__cell__width {width: 250px;}
+.table__cell__indent {margin: 60px 0 0;}
+
+
+.table__heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.table__text {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.table__span-accent {
+  margin: 20px 0 0;
+}
+
+.table__text__indent {
+  margin: 20px 0 0;
+}
 
 
 /* и элемента с модификатором вида ключ-значение */
