@@ -11,6 +11,7 @@
 
 /* общие признаки и элементы */
 
+
 .position-absolute {
   position: absolute;
   z-index: 73; /* самое лучшее число (Шелдон) */
@@ -22,7 +23,10 @@
 
 .link {color: #2f80ed;} /* ссылки синие*/
 
-.right-arrow::after {content: " \2192";}  /*стрелка с права*/
+.link__right-arrow::after {content: " \2192";}  /*стрелка с права*/
+
+.text-bold { font-weight: 600;}
+
 
 
 /* шапка сайта */
@@ -50,10 +54,9 @@
   height: 100%;
 }
 
-.header__title__text {
+.header__title-text {
   height: 96px;
   font-size: 102px;
-  font-weight: 600;
 }
 
 
@@ -86,6 +89,62 @@
   z-index: -1;
 }
 
+
+
+
+/*блок с текстами*/
+
+.content {
+  min-height: 100%;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin: 100px auto;
+}
+
+
+
+.two-columns {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__main-text {
+  min-width: 784px;
+  width: 80%;
+}
+
+.two-columns__brief__title-text {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.two-columns__paragraph {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  margin: 0;
+}
+
+.two-columns__paragraph:nth-child(even) { margin: 30px 0;}  /* внешний отступ 30px сверху и снизу для четных вдруг кто-то добавит текст*/
+
+
+
+/* секция с повторным использованием  */
 
 
 
