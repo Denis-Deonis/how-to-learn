@@ -37,16 +37,19 @@
 
 
 /* шапка сайта */
-
 .header {
-  height: 100vh;  
-  position: relative;
-  overflow: hidden;
-/* мучался с этим синим квадратиком пришлось так сделать*/
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
 }
+  
+.header__position {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+/* мучался с этим синим квадратиком пришлось так сделать*/
+  }
+
 
 .logo__place__header {
   top: 30px;
