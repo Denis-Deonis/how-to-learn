@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 /* шапка сайта */
@@ -35,14 +35,13 @@
 /* текст, заголовок шапки и т.д.*/
 
 .header__title {
-  position: absolute;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   width: 730px;
   height: 100%;
-  left: 64px;
   z-index: 73; /* самое лучшее число (Шелдон) */
+  padding-left: 64px;
 }
 
 .header__title-text {
