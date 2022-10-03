@@ -55,7 +55,7 @@
   z-index: 73; /* самое лучшее число (Шелдон) */
   bottom: 30px;
   width: 388px;
-  height: 25px;
+  line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   left: 64px;
