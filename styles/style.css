@@ -24,9 +24,6 @@
   top: 30px;
   width: 228px;
   height: 32px;
-}
-
-.logo__place__header_position {
   position: absolute;
   left: 64px;
   z-index: 73; /* самое лучшее число (Шелдон) */
