@@ -11,51 +11,47 @@
 
 /* шапка сайта */
 .header {
+  display: flex;
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2;
   height: 100vh;
+  background-color: #f2f2f2;
   position: relative;
   overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
-.logo__place__header {
+.logo__place_header {
   top: 30px;
+  left: 64px;
   width: 228px;
   height: 32px;
   position: absolute;
-  left: 64px;
-  z-index: 73; /* самое лучшее число (Шелдон) */
+  z-index: 3;
 }
 
 /* текст, заголовок шапки и т.д.*/
 
 .header__title {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  align-self: center;
   width: 730px;
-  height: 100%;
-  z-index: 73; /* самое лучшее число (Шелдон) */
-  padding-left: 64px;
-}
-
-.header__title-text {
+  z-index: 3;
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
+  margin: auto 64px;
 }
 
 .header__subtitle {
   position: absolute;
-  z-index: 73; /* самое лучшее число (Шелдон) */
+  z-index: 3;
   bottom: 30px;
+  left: 64px;
   width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  left: 64px;
+  margin: 0;
 }
 
 .header__link {
@@ -76,6 +72,7 @@
   width: 765px;
   height: 608px;
   z-index: 2;
+  object-fit: cover;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -99,13 +96,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f2f2f2;
   margin: 100px auto 0;
 }
 
 .two-columns {
   width: 80%;
-  min-height: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -143,7 +138,6 @@
 /* секция с повторным использованием  */
 
 .digits {
-  background-color: #f2f2f2;
   margin: 100px auto 0;
 }
 
@@ -167,6 +161,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
   width: 1100px;
   margin: 0 auto;
 }
@@ -191,34 +186,25 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
-}
-
-.table__text__indent {
   margin: 20px 0 0;
 }
 
 /* Блок Фейнман */
 
 .feynman {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
   position: relative;
   width: 100%;
-  height: 890px;
-  z-index: -2;
+  min-height: 890px;
+  z-index: 1;
   padding-top: 100px;
   background-color: #f2f2f2;
   margin: 100px auto 0;
 }
 
-.feynman__img {
-  display: block;
-  position: absolute;
-  width: 867px;
-  height: 637px;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-}
 
 .feynman__title {
   font-size: 120px;
@@ -226,7 +212,8 @@
   line-height: 1.15;
   text-align: center;
   width: 648px;
-  margin: 0 auto;
+  margin: 0;
+  z-index: 2;
 }
 
 .feynman__subtitle {
@@ -235,11 +222,13 @@
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
+  z-index: 2;
 }
 
 .feynman__link {
   position: absolute;
   z-index: 73; /* самое лучшее число (Шелдон) */
+  top: 50%;
   right: 48px;
   vertical-align: middle;
   color: #2f80ed;
@@ -253,6 +242,16 @@
   content: " \2192";
 }
 
+.feynman__img {
+  position: absolute;
+  width: 867px;
+  height: 637px;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  object-fit: cover;
+}
+
 /*секция kaufman */
 
 .kaufman {
@@ -262,6 +261,7 @@
   min-height: 50%;
   padding-bottom: 90px;
   background-color: #1f1f1f;
+  z-index: 0;
 }
 
 .section-title_theme_dark {
@@ -278,7 +278,7 @@
   color: #fff;
 }
 
-.table__theme__dark {
+.table__theme_dark {
   margin: 0 auto;
   z-index: 2;
 }
@@ -292,6 +292,7 @@
   z-index: 2;
 }
 
+
 .kaufman__triangle {
   position: absolute;
   right: -210px;
@@ -299,6 +300,8 @@
   z-index: 0;
   width: 877px;
   height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: 877px 877px;
 }
 
 /* блок подвала*/
@@ -317,7 +320,7 @@
   color: #fff;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   width: 711px;
   flex-direction: column;
@@ -361,3 +364,4 @@
   width: 16px;
   height: 16px;
 }
+
