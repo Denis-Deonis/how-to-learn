@@ -1,12 +1,8 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 /* шапка сайта */
@@ -18,10 +14,9 @@
   background-color: #f2f2f2;
   position: relative;
   overflow: hidden;
-  /* выше установили ограничения для секции */
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -39,7 +34,7 @@
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
-  margin: 0 64px;
+  margin: 0 0 0 64px;
 }
 
 .header__subtitle {
@@ -75,7 +70,6 @@
   object-fit: cover;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -136,7 +130,7 @@
 
 .two-columns__paragraph:nth-child(even) {
   margin: 30px 0;
-} /* внешний отступ 30px сверху и снизу для четных вдруг кто-то добавит текст*/
+}
 
 /* секция с повторным использованием  */
 
@@ -209,7 +203,6 @@
   margin: 100px auto 0;
 }
 
-
 .feynman__title {
   font-size: 120px;
   font-weight: 600;
@@ -231,7 +224,7 @@
 
 .feynman__link {
   position: absolute;
-  z-index: 73; /* самое лучшее число (Шелдон) */
+  z-index: 73;
   top: 50%;
   right: 48px;
   vertical-align: middle;
@@ -266,6 +259,7 @@
   overflow: hidden;
   padding-bottom: 90px;
   background-color: #1f1f1f;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -284,18 +278,14 @@
 
 .table_theme_dark {
   margin: 0 auto;
-  z-index: 2;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  z-index: 2;
 }
-
 
 .kaufman__triangle {
   position: absolute;
@@ -305,6 +295,7 @@
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: 877px 877px;
+  z-index: -1;
 }
 
 /* блок подвала*/
@@ -330,7 +321,7 @@
   justify-content: space-between;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   width: 228px;
   height: 32px;
 }
@@ -368,4 +359,3 @@
   width: 16px;
   height: 16px;
 }
-
