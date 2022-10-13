@@ -1,5 +1,5 @@
 # Проектная работа: "How to learn".
-# Создана в рамках учебы в [Яндекс.Практикум](https://praktikum.yandex.ru/) на факультете ["Веб-разработчик"](https://praktikum.yandex.ru/web/) 
+# Реализована в рамках учебной и практической работы в [Яндекс.Практикум](https://praktikum.yandex.ru/) на факультете ["Веб-разработчик"](https://praktikum.yandex.ru/web/) 
 
 ## Описание: 
 [How to learn](https://github.com/Denis-Deonis/how-to-learn) - это типовой однастраничный сайт про методики обучения. 
