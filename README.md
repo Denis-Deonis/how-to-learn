@@ -5,7 +5,7 @@
 [How to learn](https://github.com/Denis-Deonis/how-to-learn) - это типовой однастраничный сайт про методики обучения. 
 Сайт создан по методологии BEM с файловой структурой Nested BEM. 
 
-[Проектная работа на cfqnt GitHub](https://github.com/Denis-Deonis/how-to-learn)
+[Проектная работа на сайте GitHub](https://github.com/Denis-Deonis/how-to-learn)
 
 ## Функционал:
 * Анимация и трансформация элементов страницы посредством CSS 
