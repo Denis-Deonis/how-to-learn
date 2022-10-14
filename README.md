@@ -15,7 +15,7 @@
 * HTML и CSS
 * Flexbox 
 * Positioning Elements 
-* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) — video, embed, API
+* HTML5 — video, embed, API
 * Animation and Transform using CSS 
 * Iframe
 * BEM Methodology 
@@ -44,4 +44,4 @@ git clone https://github.com/Denis-Deonis/how-to-learn.git
 * Создание формы обратной связи 
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?Denis-Deonis=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/apiDenis-Deonis=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
