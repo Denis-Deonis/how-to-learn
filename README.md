@@ -44,4 +44,4 @@ git clone https://github.com/Denis-Deonis/how-to-learn.git
 * Создание формы обратной связи 
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/apiDenis-Deonis=anuraghazra)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/apiDenis-Deonis=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
