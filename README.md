@@ -42,5 +42,3 @@ git clone https://github.com/Denis-Deonis/how-to-learn.git
 ## Планы по доработке
 * Адаптировать сайт для просмотра на разных устройствах
 * Создание формы обратной связи 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/Denis-Deonis=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
