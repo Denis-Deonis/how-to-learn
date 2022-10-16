@@ -1,3 +1,19 @@
+
+
+/* <header> */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__title/header__title.css);
+/* </header> */
+
+/* <logo> */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+/* </logo> */
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -5,7 +21,12 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+
+
+
+
 /* шапка сайта */
+/*
 .header {
   display: flex;
   min-height: 600px;
@@ -16,16 +37,23 @@
   overflow: hidden;
 }
 
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  width: 228px;
-  height: 32px;
   z-index: 3;
 }
 
+*/
+
 /* текст, заголовок шапки и т.д.*/
+
+/*
 
 .header__title {
   align-self: center;
@@ -54,12 +82,16 @@
   text-decoration: none;
 }
 
+/*
 .header__link::after {
   content: " \2192";
-}
+} */
+
+
 
 /* картинка шапки */
 
+/*
 .header__main-illustration {
   position: absolute;
   bottom: 0;
@@ -80,7 +112,15 @@
   z-index: 1;
 }
 
+*/
+
+
+
+
+
 /*блок с текстами*/
+
+
 
 .content {
   min-height: 100%;
@@ -321,10 +361,7 @@
   justify-content: space-between;
 }
 
-.logo_place_footer {
-  width: 228px;
-  height: 32px;
-}
+
 
 .footer__author {
   font-size: 18px;
