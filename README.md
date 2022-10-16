@@ -2,7 +2,7 @@
 
 ## Демо сайта
 
-<img src='https://raw.githubusercontent.com/Denis-Deonis/how-to-learn/main/demo/video_site_how_to_learn.gif?token=GHSAT0AAAAAABZNX6OVAVCWW44VNYLZAHSQY2L2AXQ' alt="анимация - демо сайта How to learn">
+<img src='https://raw.githubusercontent.com/Denis-Deonis/how-to-learn/main/demo/video_site_how_to_learn.gif?token=GHSAT0AAAAAABZNX6OVAVCWW44VNYLZAHSQY2L2AXQ' alt="анимация - демо сайта How to learn" style="margin: 0 auto;">
 
 ## Описание
 
