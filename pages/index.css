@@ -11,7 +11,9 @@
 
 /* <section> */
 @import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark\ .css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 /* </section> */
 
 /* <header> */
@@ -45,8 +47,10 @@
 
 /* <table> */
 @import url(../blocks/table/table.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_white.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
 /* </table> */
@@ -59,127 +63,18 @@
 @import url(../blocks/feynman/__title/feynman__title.css);
 /* </feynman> */
 
+/* <kaufman> */
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+/* </kaufman> */
 
-
-/* Блок Фейнман */
-
-
-
-
-
-
-
-
-
-/* .feynman__link::after {
-  content: " \2192";
-} */
-
-
-/*секция kaufman */
-
-.kaufman {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 90px;
-  background-color: #1f1f1f;
-  z-index: 1;
-}
-
-.section-title_theme_dark {
-  padding-top: 90px;
-  width: 60%;
-  margin: 0 auto;
-  color: #fff;
-}
-
-.section-subtitle_theme_dark {
-  padding-top: 20px;
-  width: 60%;
-  margin: 0 auto;
-  color: #fff;
-}
-
-.table_theme_dark {
-  margin: 0 auto;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
-.kaufman__triangle {
-  position: absolute;
-  right: -210px;
-  top: 0;
-  width: 877px;
-  height: 877px;
-  background-image: url(../images/kaufman-triangle.svg);
-  background-size: 877px 877px;
-  z-index: -1;
-}
-
-/* блок подвала*/
-
-.footer {
-  min-height: 350px;
-  background-color: #1f1f1f;
-  display: flex;
-}
-
-.footer__columns {
-  width: 90%;
-  display: flex;
-  margin: 60px auto 40px;
-  justify-content: space-between;
-  color: #fff;
-}
-
-.footer__column_content_copyright {
-  display: flex;
-  flex-basis: 711px;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-
-
-.footer__author {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 25px;
-  margin: 18px 0;
-}
-
-.footer__column-heading {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 30px;
-  margin: 0;
-}
-
-.footer__column-links {
-  margin: 20px 0 16px;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column-link {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 30px;
-}
-
-.footer__social-icon {
-  padding-right: 10px;
-  width: 16px;
-  height: 16px;
-}
+/* <footer> */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+/* </footer> */
