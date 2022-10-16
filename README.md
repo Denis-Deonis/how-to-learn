@@ -41,7 +41,7 @@
 ## Инструкция по установке
 
 ```git clone
-https://github.com/Denis-Deonis/how-to-learn.git
+git clone https://github.com/Denis-Deonis/how-to-learn.git
 ```
 
 ## Планы по доработке
