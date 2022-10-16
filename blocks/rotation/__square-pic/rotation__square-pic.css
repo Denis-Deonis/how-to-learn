@@ -1,0 +1,35 @@
+.rotation__square-pic {
+  -moz-animation-duration: 20s;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+  -moz-animation-name: header-square-pic;
+  -webkit-animation-name: header-square-pic;
+  animation-name: header-square-pic;
+}
+
+@-moz-keyframes header-square-pic {
+  from {
+      transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes header-square-pic {
+  from {
+    transform: rotate(0);
+}
+  to {
+  transform: rotate(360deg);
+}
+}
+
+@keyframes header-square-pic {
+  from {
+    transform: rotate(0);
+}
+  to {
+  transform: rotate(360deg);
+}
+}
