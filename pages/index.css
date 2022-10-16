@@ -1,4 +1,13 @@
+@import url(../vendor/normalize.css);
 
+/* <page> */
+@import url(../blocks/page/page.css);
+/* <page> */
+
+/* <logo> */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+/* </logo> */
 
 /* <header> */
 @import url(../blocks/header/header.css);
@@ -9,17 +18,33 @@
 @import url(../blocks/header/__title/header__title.css);
 /* </header> */
 
-/* <logo> */
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/logo_place_header.css);
-/* </logo> */
+/* <content> */
+@import url(../blocks/content/content.css);
+/* </content> */
 
-.page {
+/* <description> */
+@import url(../blocks/description/description.css);
+/* </description> */
+
+/* <two-columns> */
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+/* </two-columns> */
+
+
+
+
+
+
+/* .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Helvetica Neue", Arial, sans-serif;
-}
+} */
 
 
 
@@ -122,25 +147,25 @@
 
 
 
-.content {
+/* .content {
   min-height: 100%;
-}
+} */
 
-.description {
+/* .description {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 100px auto 0;
-}
+} */
 
-.two-columns {
+/* .two-columns {
   width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
-.two-columns__brief {
+/* .two-columns__brief {
   width: 175px;
   font-size: 18px;
   font-weight: normal;
@@ -148,29 +173,29 @@
   margin: 0;
   color: #2f80ed;
   text-decoration: none;
-}
+} */
 
-.two-columns__main-text {
+/* .two-columns__main-text {
   min-width: 784px;
   width: 80%;
-}
+} */
 
-.two-columns__paragraph {
+/* .two-columns__paragraph {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
   margin: 0;
-}
+} */
 
-.two-columns__span-accent {
+/* .two-columns__span-accent {
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
-}
+} */
 
-.two-columns__paragraph:nth-child(even) {
+/* .two-columns__paragraph:nth-child(even) {
   margin: 30px 0;
-}
+} */
 
 /* секция с повторным использованием  */
 
