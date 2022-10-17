@@ -46,6 +46,12 @@
 @import url(../blocks/cards/__title/cards__title.css);
 /* </cards> */
 
+/* <video> */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+/* </video> */
+
 /* <description> */
 @import url(../blocks/description/description.css);
 /* </description> */
