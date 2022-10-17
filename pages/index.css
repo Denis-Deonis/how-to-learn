@@ -34,6 +34,18 @@
 @import url(../blocks/content/content.css);
 /* </content> */
 
+/* <techniques> */
+@import url(../blocks/techniques/techniques.css);
+/* </techniques> */
+
+/* <cards> */
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
+/* </cards> */
+
 /* <description> */
 @import url(../blocks/description/description.css);
 /* </description> */
