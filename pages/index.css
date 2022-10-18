@@ -11,8 +11,11 @@
 
 /* <rotation> */
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/rotation/__square-pic/rotation__square-pic.css);
 /* </rotation> */
+
+/* <hover> */
+@import url(../blocks/hover/__link/hover__link.css);
+/* </hover> */
 
 /* <section> */
 @import url(../blocks/section-title/section-title.css);
@@ -107,6 +110,12 @@
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 /* </kaufman> */
+
+/* <resources> */
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__link/resources__link.css);
+/* </resources> */
 
 /* <footer> */
 @import url(../blocks/footer/footer.css);
