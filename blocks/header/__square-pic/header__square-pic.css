@@ -6,4 +6,7 @@
   right: 0;
   background-color: #2f80ed;
   z-index: 1;
+  -moz-animation-name: rotation;
+  -webkit-animation-name: rotation;
+  animation-name: rotation;
 }

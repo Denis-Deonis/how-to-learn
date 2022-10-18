@@ -3,4 +3,33 @@
   -moz-animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   animation-timing-function: linear;
+  -moz-animation-duration: 20s;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+}
+@-moz-keyframes rotation {
+  from {
+      transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0);
+}
+  to {
+  transform: rotate(360deg);
+}
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+}
+  to {
+  transform: rotate(360deg);
+}
 }
