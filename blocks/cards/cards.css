@@ -4,4 +4,5 @@
   flex-wrap: wrap;
   margin: 0 auto;
   column-gap: 100px;
+  padding: 0;
 }
