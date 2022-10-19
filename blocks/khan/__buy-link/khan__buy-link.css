@@ -8,4 +8,9 @@
 
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity .21s ease;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.73;
 }
