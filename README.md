@@ -48,3 +48,10 @@ git clone https://github.com/Denis-Deonis/how-to-learn.git
 
 * Адаптировать сайт для просмотра на разных устройствах
 * Создание формы обратной связи
+
+## Скриншот
+<details><summary><b>Развернуть</b></summary>
+
+[![how-to-learn](https://raw.githubusercontent.com/Denis-Deonis/how-to-learn/main/demo/Screenshot_how_to_learn.png)](https://github.com/Denis-Deonis/how-to-learn)
+
+</details>
