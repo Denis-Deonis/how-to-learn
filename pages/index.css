@@ -117,6 +117,18 @@
 @import url(../blocks/resources/__link/resources__link.css);
 /* </resources> */
 
+/* <form> */
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__container/form__container.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__full-name/form__full-name.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__half-container/form__half-container.css);
+@import url(../blocks/form/__half/form__half.css);
+@import url(../blocks/form/__textarea/form__textarea.css);
+@import url(../blocks/form/__send/form__send.css);
+/* </form> */
+
 /* <footer> */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);

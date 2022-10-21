@@ -1,0 +1,5 @@
+.form__half {
+  list-style-type: none;
+  width: calc(50% - 1px);
+}
+

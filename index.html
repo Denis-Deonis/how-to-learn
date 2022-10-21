@@ -306,6 +306,54 @@
         </div>
       </section>
     </main>
+    <form class="form" action="">
+      <div class="form__container">
+        <div class="form__full-name">
+          <label
+            class="form__title"
+            for="name"
+          >Фамилия Имя Отчество</label>
+          <input
+            type="text"
+            class="form__input"
+            name="name" required
+            id='name'
+          >
+        </div>
+        <ul class="form__half-container">
+          <li class="form__half">
+            <label
+              for="email"
+              class="form__title"
+            >E-mail</label>
+            <input
+              type="email"
+              class="form__input form__input_half"
+              name="email" required
+              id='email'
+            >
+          </li>
+          <li class="form__half">
+            <label
+              for="phone"
+              class="form__title"
+            >Номер телефона</label>
+            <input
+              type="phone"
+              class="form__input form__input_half"
+              id='phone'
+              name='phone'
+            >
+          </li>
+        </ul>
+        <textarea class="form__input form__textarea"></textarea>
+        <input
+          class="form__send form__title"
+          type="submit"
+          value="Отправить"
+        >
+      </div>
+    </form>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">

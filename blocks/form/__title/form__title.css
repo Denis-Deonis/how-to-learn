@@ -1,0 +1,17 @@
+.form__title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+  font-family: "Titillium Web", sans-serif;
+  display: block;
+  text-transform: uppercase;
+}
+
+.form__title::after {
+  content: " *";
+  color: #E8474C;
+  font-size: 20px;
+  font-weight: normal;
+  vertical-align: top;
+}

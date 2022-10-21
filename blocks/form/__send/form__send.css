@@ -1,0 +1,8 @@
+.form__send {
+  margin: 20px 0 0;
+  background-color: #2f80ed;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
