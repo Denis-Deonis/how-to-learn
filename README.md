@@ -8,6 +8,13 @@
 
 [Научиться учиться](https://denis-deonis.github.io/how-to-learn/) - это типовой однастраничный сайт про методики обучения. В этой проектной работе я использовал флексбокс-вёрстку, анимацию, фрейм, позиционирование и продвинутую семантику языка HTML. Сайт создан мной по методологии BEM с файловой структурой [Nested BEM](https://ru.bem.info/methodology/filestructure/#схемы).
 
+## Скриншот
+<details><summary><b>Развернуть</b></summary>
+
+[![how-to-learn](https://raw.githubusercontent.com/Denis-Deonis/how-to-learn/main/demo/Screenshot_how_to_learn.png)](https://github.com/Denis-Deonis/how-to-learn)
+
+</details>
+
 ## Ссылка на сайт
 
 [Проектная работа на сайте GitHub Pages](https://denis-deonis.github.io/how-to-learn/)
@@ -51,9 +58,3 @@ git clone https://github.com/Denis-Deonis/how-to-learn.git
 * Адаптировать сайт для просмотра на разных устройствах
 * Создание формы обратной связи
 
-## Скриншот
-<details><summary><b>Развернуть</b></summary>
-
-[![how-to-learn](https://raw.githubusercontent.com/Denis-Deonis/how-to-learn/main/demo/Screenshot_how_to_learn.png)](https://github.com/Denis-Deonis/how-to-learn)
-
-</details>
