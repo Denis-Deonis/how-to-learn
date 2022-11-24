@@ -2,7 +2,7 @@
 
 ## Демо сайта
 
-<img src='https://raw.githubusercontent.com/Denis-Deonis/pictures/main/how-to-learn/video_site_how_to_learn.gif?token=GHSAT0AAAAAABZPDRQV3V34MPSC6NVOSMDAY34SVTA' alt="анимация - демо сайта How to learn" style="margin: 0 auto;">
+<img src='https://github.com/Denis-Deonis/pictures/blob/main/how-to-learn/video_site_how_to_learn.gif' alt="анимация - демо сайта How to learn" style="margin: 0 auto;">
 
 ## Описание
 
@@ -11,7 +11,7 @@
 ## Скриншот
 <details><summary><b>Развернуть</b></summary>
 
-[![how-to-learn](https://raw.githubusercontent.com/Denis-Deonis/pictures/main/how-to-learn/Screenshot_how_to_learn.png?token=GHSAT0AAAAAABZPDRQVOQZNDLVNOWIQGKL6Y34SXMQ)](https://github.com/Denis-Deonis/how-to-learn)
+[![how-to-learn](https://github.com/Denis-Deonis/pictures/blob/main/how-to-learn/Screenshot_how_to_learn.png)](https://github.com/Denis-Deonis/how-to-learn)
 
 </details>
 
